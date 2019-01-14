@@ -1,0 +1,66 @@
+/* *background-size {
+   height: 1366px;
+   width: 768px;
+ }*/
+
+
+
+ /* It doesn't seem like I need a header*/
+ .mySketch {
+   background-color: lightblue;
+   height: 250px;
+   width: 800px;
+   margin-left: auto;
+   margin-right: auto;
+   border-radius: 10px;
+   background-image: image();
+
+ }
+ header{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 60%;
+ }
+
+ .grid-container {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   color: #B6B5CD;
+   font-size: 15px;
+   text-align: center;
+   height: 268px;
+   grid-column-gap: 25px;
+ }
+
+ section {
+   border: 1px solid #B6B5CD;
+   border-style: dotted;
+   border-radius: 75px;
+   /*didnt like the look */ background-color: lightblue;
+   font-family: 'Coiny', cursive;
+
+ }
+
+ footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   padding: 15px;
+   text-align: left;
+   background-color: lightblue;
+   border-radius: 25px;
+   font-family: 'Coiny', cursive;
+ }
+
+h1{
+
+  font-family: 'Libre Barcode 128 Text', cursive;
+  text-align: center;
+  font-size: 50px;
+ color: #B6B5CD;
+}
+
+@media only screen and (min-width: 768px) {
+  /* CSS rule sets */
+}
