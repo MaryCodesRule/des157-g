@@ -7,11 +7,12 @@
 
  /* It doesn't seem like I need a header*/
  .mySketch {
-   background-color: lightblue;
-   height: 250px;
-   width: 800px;
-   margin-left: auto;
+  /*height: 250px;
+   width: 800px;*/
+   /*margin-left: auto;
    margin-right: auto;
+   margin-top: auto;
+   margin-bottom: auto;*/
    border-radius: 10px;
 
  }
@@ -58,6 +59,9 @@ h1{
   text-align: center;
   font-size: 75px;
  color: #B6B5CD;
+}
+body{
+  background-color: white;
 }
 
 @media only screen and (min-width: 768px) {

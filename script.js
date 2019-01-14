@@ -3,15 +3,15 @@ console.log('reading.js');
 function setup() {
   //size is createCanvas in js p5
   //create a variable to ref the canvas
-  var myCanvas = createCanvas(800, 200);
+  var myCanvas = createCanvas(800, 250);
 
   //connect mtCanvas to mySketch
   myCanvas.parent('mySketch');
-  img = loadImage('images/banner.png');
+  //img = loadImage('images/banner.png'); Had trouble putting the image in.
 }
 
 function draw() {
-    image(img, 0, 0);
+    //image(img, 0, 0);
 
   if (mouseIsPressed) { //when mouse is pressed on program it reacts
     fill(random(250), random(255), random(255));
