@@ -4,9 +4,10 @@ function setup() {
   //size is createCanvas in js p5
   //create a variable to ref the canvas
   var myCanvas = createCanvas(800, 200);
-  img = loadImage('https://i.pinimg.com/originals/f7/16/2b/f7162b3cd5123463e7fa0e8101130461.png');
+
   //connect mtCanvas to mySketch
   myCanvas.parent('mySketch');
+  img = loadImage('images/banner.png');
 }
 
 function draw() {

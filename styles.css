@@ -13,7 +13,6 @@
    margin-left: auto;
    margin-right: auto;
    border-radius: 10px;
-   background-image: image();
 
  }
  header{
@@ -37,7 +36,7 @@
    border: 1px solid #B6B5CD;
    border-style: dotted;
    border-radius: 75px;
-   /*didnt like the look */ background-color: lightblue;
+   /*didnt like the look background-color: lightblue;*/
    font-family: 'Coiny', cursive;
 
  }
@@ -57,7 +56,7 @@ h1{
 
   font-family: 'Libre Barcode 128 Text', cursive;
   text-align: center;
-  font-size: 50px;
+  font-size: 75px;
  color: #B6B5CD;
 }
 
