@@ -7,8 +7,8 @@ function setup() {
 
   //connect mtCanvas to mySketch
   myCanvas.parent('mySketch');
-
-  img = loadImage(img = "https://www.pinterest.com/pin/44262008823795880/.png"); //Had trouble putting the image in.
+var img = new Image();
+  img.src = 'https://www.pinterest.com/pin/44262008823795880/.png'; //Had trouble putting the image in.
 
 
 }
