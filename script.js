@@ -7,7 +7,7 @@ function setup() {
 
   //connect mtCanvas to mySketch
   myCanvas.parent('mySketch');
-  img = loadImage('images_banner.png'); //Had trouble putting the image in.
+  img = loadImage("src"'images_banner.png'); //Had trouble putting the image in.
 }
 
 function draw() {
