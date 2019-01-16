@@ -11,9 +11,10 @@
    margin-top: auto;
    margin-bottom: auto;*/
   border-radius: 10px;
-  /* background: url(https://i.pinimg.com/originals/f7/16/2b/f7162b3cd5123463e7fa0e8101130461.png); */
-  /* background-image: url("images/banner.png"); */
+  background-image: url(images/eyes_banner_2.png);
+  background-repeat: repeat;
 }
+
 
 header {
   display: block;
@@ -30,6 +31,7 @@ header {
   text-align: center;
   height: 268px;
   grid-column-gap: 25px;
+  background-color: white;
 }
 
 section {
@@ -55,7 +57,7 @@ footer {
   background-color: black;
   border-radius: 25px;
   font-family: 'Coiny', cursive;
-  color:#B6B5CD;
+  color:white;
 }
 
 h1 {
