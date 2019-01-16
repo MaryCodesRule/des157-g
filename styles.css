@@ -52,9 +52,9 @@ footer {
   position: fixed;
   left: 60%;
   bottom: 0;
-  padding-left: 50%;
-  padding-right: 50%;
-  
+  padding-left: 100px;
+  padding-right:100px;
+
 
   /*width: 100%;
   max-width: 768px;*/
