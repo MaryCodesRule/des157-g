@@ -12,7 +12,8 @@
    margin-bottom: auto;*/
   border-radius: 10px;
   background-image: url(images/eyes_banner_2.png);
-  background-repeat: repeat;
+  
+  background-repeat: repeat-x;
 }
 
 
