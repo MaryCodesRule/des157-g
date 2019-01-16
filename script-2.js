@@ -6,7 +6,7 @@ function setup() {
   var myCanvas = createCanvas(800, 250);
 
   //connect mtCanvas to mySketch
-  myCanvas.parent('mySketch');
+  myCanvas.parent('mySketch')
 
   img = loadImage("images/banner.png"); //Had trouble putting the image in.
   img2 = loadImage("images/background_ice.png");
