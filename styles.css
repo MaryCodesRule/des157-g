@@ -67,9 +67,8 @@ body{
   background-image: url(images/eyes_banner_2.png);
       background-repeat: no-repeat;
       background-position: center;
-      width: 400px;
-      height: 400px;
-      border: 2px dashed #333;
+
+      
 }
 /*@media only screen and (min-width: 768px) {
   /* CSS rule sets */
