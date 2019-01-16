@@ -28,7 +28,7 @@
  .grid-container {
    display: grid;
    grid-template-columns: 1fr 1fr 1fr;
-   color: #B6B5CD;
+   color: black;
    font-size: 15px;
    text-align: center;
    height: 268px;
@@ -42,13 +42,14 @@
    /*didnt like the look background-color: lightblue;*/
    font-family: 'Coiny', cursive;
 
+
  }
 
  footer {
    position: fixed;
    left: 0;
    bottom: 0;
-   padding: 15px;
+   padding: 100%;
    text-align: left;
    background-color: lightblue;
    border-radius: 25px;
@@ -67,6 +68,7 @@ body{
   background-image: url(images/background_ice.png);
       background-repeat: no-repeat;
       background-position: center;
+      background-color: transparent;
 
 
 }
