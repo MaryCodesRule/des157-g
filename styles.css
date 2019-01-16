@@ -51,9 +51,8 @@ footer {
   position: fixed;
   left: 10%;
   bottom: 0;
-  padding-left: 768px;
-  padding-right:768px;
-  padding-top: 10px;
+width: 100%;
+padding-top: 10px;
 
 
   /*width: 100%;
@@ -73,7 +72,7 @@ h1 {
 }
 
 body{
-  background-color: #A1644A;
+  background-color: #B6B5CD;
 }
 
 /*@media only screen and (min-width: 768px) {
