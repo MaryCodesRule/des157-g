@@ -1,8 +1,9 @@
 console.log('reading.js');
-
+var img img2;
 function setup() {
   //size is createCanvas in js p5
   //create a variable to ref the canvas
+
   var myCanvas = createCanvas(800, 250);
 
   //connect mtCanvas to mySketch
@@ -13,7 +14,7 @@ function setup() {
 }
 
 function draw() {
-  console.log('img');
+  //console.log('img');
   if (mouseIsPressed) { //when mouse is pressed on program it reacts
     fill(random(250), random(255), random(255));
     ellipse(165, 110, 55, 55);
