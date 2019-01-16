@@ -61,14 +61,14 @@ h1{
   font-family: 'Libre Barcode 128 Text', cursive;
   text-align: center;
   font-size: 75px;
- color: #B6B5CD;
+ color: black;
 }
 body{
   /*background: url("background_ice.png") /*no-repeat right top;*/
   background-image: url(images/background_ice.png);
       background-repeat: no-repeat;
       background-position: center;
-      opacity: 0.5;
+      /*opacity: 0.5;*/
 
 
 }
