@@ -45,6 +45,8 @@ footer {
   left: 0;
   bottom: 100%;
   padding: 15px;
+  width: 100%;
+  max-width:768px;
   text-align: left;
   background-color: lightblue;
   border-radius: 25px;
@@ -64,6 +66,7 @@ body {
     background-image: url(images/background_ice.png);
   background-repeat: no-repeat;
   background-position: center;
+  opacity: 0.5;
 }
 
 /*@media only screen and (min-width: 768px) {
