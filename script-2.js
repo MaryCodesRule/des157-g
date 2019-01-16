@@ -1,4 +1,4 @@
-console.log('reading.js');
+console.log('reading script 2');
 
 function setup() {
   //size is createCanvas in js p5
@@ -8,12 +8,12 @@ function setup() {
   //connect mtCanvas to mySketch
   myCanvas.parent('mySketch');
 
-  // img = loadImage('https://www.pinterest.com/pin/44262008823795880/.png'); //Had trouble putting the image in.
   img = loadImage("images/banner.png"); //Had trouble putting the image in.
 }
 
 function draw() {
   console.log('img');
+    image(img, 0, 0);
   if (mouseIsPressed) { //when mouse is pressed on program it reacts
     fill(random(250), random(255), random(255));
     ellipse(165, 110, 55, 55);
@@ -34,5 +34,5 @@ function draw() {
     ellipse(165, 110, 5, 5);
     ellipse(617, 110, 5, 5);
   }
-  image(img, 0, 0);
+
 }
