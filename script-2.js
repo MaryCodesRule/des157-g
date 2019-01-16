@@ -13,8 +13,8 @@ function setup() {
 }
 
 function draw() {
-  console.log('img');
-console.log('img2');
+  //console.log('img');
+
     image(img, 0, 0);
     image(img2, width, height);
   if (mouseIsPressed) { //when mouse is pressed on program it reacts
