@@ -6,15 +6,15 @@
 
 
  /* It doesn't seem like I need a header*/
- .mySketch {
-  /*height: 250px;
-   width: 800px;*/
+ #mySketch {
+  height: 250px;
+   width: 800px;
    /*margin-left: auto;
    margin-right: auto;
    margin-top: auto;
    margin-bottom: auto;*/
    border-radius: 10px;
-   background: url(https://i.pinimg.com/originals/f7/16/2b/f7162b3cd5123463e7fa0e8101130461.png);
+
 
  }
  header{
@@ -67,4 +67,3 @@ body{
 
 /*@media only screen and (min-width: 768px) {
   /* CSS rule sets */
-/*}
