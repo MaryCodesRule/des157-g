@@ -21,6 +21,7 @@ header {
   margin-right: auto;
   width: 60%;
   background-image: url(images/eyes_banner_2.png);
+  background-repeat: repeat-x;
 
 
 }
@@ -49,12 +50,8 @@ section {
 
 footer {
   position: fixed;
-  left: 50%;
+  left: 60%;
   bottom: 0;
-  /*padding-right:;
-  /*padding-left: 100%;
-  padding-right: 100%;*/
-
 
   /*width: 100%;
   max-width: 768px;*/
