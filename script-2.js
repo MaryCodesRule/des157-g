@@ -1,5 +1,5 @@
 console.log('reading script 2');
-var img img2;
+var img img2
 function setup() {
   //size is createCanvas in js p5
   //create a variable to ref the canvas
