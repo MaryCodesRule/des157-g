@@ -9,14 +9,14 @@ function setup() {
   myCanvas.parent('mySketch');
 
   img = loadImage("images/banner.png"); //Had trouble putting the image in.
-//img = loadImage("images/eyes_banner-2.png");
+  //img = loadImage("images/eyes_banner-2.png");
 
 }
 
 function draw() {
   console.log('img');
 
-    image(img, 0, 0);
+  image(img, 0, 0);
 
 
   if (mouseIsPressed) { //when mouse is pressed on program it reacts
@@ -38,7 +38,7 @@ function draw() {
     fill('#F43D2F');
     ellipse(165, 110, 5, 5);
     ellipse(617, 110, 5, 5);
-      
+
   }
 
 }
