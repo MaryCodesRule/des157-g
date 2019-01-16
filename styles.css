@@ -49,9 +49,9 @@ section {
 
 footer {
   position: fixed;
-  left: 0;
+  left: 50%;
   bottom: 0;
-  padding-right: 768px;
+  /*padding-right:;
   /*padding-left: 100%;
   padding-right: 100%;*/
 
