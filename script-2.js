@@ -13,7 +13,7 @@ function setup() {
 }
 
 function draw() {
-  console.log('img img2');
+  console.log('img''img2');
 
     image(img, 0, 0);
     image(img2, width, height);
