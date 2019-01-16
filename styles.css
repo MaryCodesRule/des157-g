@@ -46,8 +46,8 @@ footer {
   bottom: 0;
   padding-left: 100%;
   padding-right: 100%;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 0;
+  padding-bottom: 0;
 
   /*width: 100%;
   max-width: 768px;*/
