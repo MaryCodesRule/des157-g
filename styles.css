@@ -49,10 +49,11 @@ section {
 
 footer {
   position: fixed;
-  left: 60%;
+  left: 40%;
   bottom: 0;
-  padding-left: 100px;
-  padding-right:100px;
+  padding-left: 250px;
+  padding-right:250px;
+  padding-top: 50px;
 
 
   /*width: 100%;
