@@ -9,7 +9,7 @@ function setup() {
   myCanvas.parent('mySketch');
 
   img = loadImage("images/banner.png"); //Had trouble putting the image in.
-img = loadImage("images/banner-2.png");
+img = loadImage("images/eyes_banner-2.png");
 
 }
 
