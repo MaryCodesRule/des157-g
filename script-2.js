@@ -17,6 +17,7 @@ function draw() {
   console.log('img');
 
   image(img, 0, 0);
+
   if (mouseIsPressed){
     img = loadImage("images/eyes_banner_2.png")
   }
@@ -42,6 +43,6 @@ function draw() {
     ellipse(617, 110, 5, 5);
 
   }
-  
+
 
 }
