@@ -44,7 +44,8 @@ footer {
   position: fixed;
   left: 0;
   bottom: 0;
-  padding: 100px;
+  padding-left: 100%;
+  padding-right: 100%;
   /*width: 100%;
   max-width: 768px;*/
   text-align: center;
