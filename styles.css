@@ -20,7 +20,7 @@ header {
   margin-left: auto;
   margin-right: auto;
   width: 60%;
-  
+
 
 
 }
@@ -71,7 +71,9 @@ h1 {
   color: #B6B5CD;
 }
 
-
+body{
+  background-color: #A1644A;
+}
 
 /*@media only screen and (min-width: 768px) {
   /* CSS rule sets */
