@@ -39,7 +39,7 @@ header {
 section {
   border: 1px solid #B6B5CD;
   border-style: dotted;
-  border-radius: 75px;
+  /*border-radius: 75px;*/
   /*didnt like the look background-color: lightblue;*/
   font-family: 'Coiny', cursive;
   background-image: url(images/background_ice.png);
@@ -59,7 +59,7 @@ padding-top: 10px;
   max-width: 768px;*/
   text-align: center;
   background-color: #B6B5CD;
-  border-radius: 25px;
+
   font-family: 'Coiny', cursive;
   color:white;
 }
