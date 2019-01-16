@@ -43,7 +43,7 @@ section {
 footer {
   position: fixed;
   left: 0;
-  bottom: 0;
+  bottom: 25px;
   padding: 30px;
   /*width: 100%;
   max-width: 768px;*/
