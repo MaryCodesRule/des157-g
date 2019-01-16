@@ -4,6 +4,7 @@ function setup() {
   //size is createCanvas in js p5
   //create a variable to ref the canvas
   var myCanvas = createCanvas(800, 250);
+var img;
   var img2;
   //connect mtCanvas to mySketch
   myCanvas.parent('mySketch');
