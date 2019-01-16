@@ -12,7 +12,7 @@
    margin-bottom: auto;*/
   border-radius: 10px;
   background-image: url(images/eyes_banner_2.png);
-  
+
   background-repeat: repeat-x;
 }
 
@@ -41,13 +41,16 @@ section {
   border-radius: 75px;
   /*didnt like the look background-color: lightblue;*/
   font-family: 'Coiny', cursive;
-  background-color: tan;
+  background-image: url(images/background_ice.png);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 footer {
   position: fixed;
   left: 0;
   bottom: 0;
+  padding-left: 100%;
   /*padding-left: 100%;
   padding-right: 100%;*/
 
@@ -68,12 +71,7 @@ h1 {
   color: black;
 }
 
-body {
-  /*no-repeat right top;*/
-  background-image: url(images/background_ice.png);
-  background-repeat: no-repeat;
-  background-position: center;
-}
+
 
 /*@media only screen and (min-width: 768px) {
   /* CSS rule sets */
