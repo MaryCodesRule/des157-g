@@ -2,77 +2,70 @@
    height: 1366px;
    width: 768px;
  }*/
-
-
- /* It doesn't seem like I need a header*/
- #mySketch {
+/* It doesn't seem like I need a header*/
+#mySketch {
   height: 250px;
-   width: 800px;
-   /*margin-left: auto;
+  width: 800px;
+  /*margin-left: auto;
    margin-right: auto;
    margin-top: auto;
    margin-bottom: auto;*/
-   border-radius: 10px;
-   /* background: url(https://i.pinimg.com/originals/f7/16/2b/f7162b3cd5123463e7fa0e8101130461.png); */
+  border-radius: 10px;
+  /* background: url(https://i.pinimg.com/originals/f7/16/2b/f7162b3cd5123463e7fa0e8101130461.png); */
+  /* background-image: url("images/banner.png"); */
+}
 
-    /* background-image: url("images/banner.png"); */
+header {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
 
- }
- header{
-   display: block;
-   margin-left: auto;
-   margin-right: auto;
-   width: 60%;
- }
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  color: black;
+  font-size: 15px;
+  text-align: center;
+  height: 268px;
+  grid-column-gap: 25px;
+}
 
- .grid-container {
-   display: grid;
-   grid-template-columns: 1fr 1fr 1fr;
-   color: black;
-   font-size: 15px;
-   text-align: center;
-   height: 268px;
-   grid-column-gap: 25px;
- }
+section {
+  border: 1px solid #B6B5CD;
+  border-style: dotted;
+  border-radius: 75px;
+  /*didnt like the look background-color: lightblue;*/
+  font-family: 'Coiny', cursive;
+}
 
- section {
-   border: 1px solid #B6B5CD;
-   border-style: dotted;
-   border-radius: 75px;
-   /*didnt like the look background-color: lightblue;*/
-   font-family: 'Coiny', cursive;
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 100%;
+  padding: 15px;
+  text-align: left;
+  background-color: lightblue;
+  border-radius: 25px;
+  font-family: 'Coiny', cursive;
+}
 
-
-
- }
-
- footer {
-   position: fixed;
-   left: 0;
-   bottom: 0;
-   padding: 100%;
-   text-align: left;
-   background-color: lightblue;
-   border-radius: 25px;
-   font-family: 'Coiny', cursive;
- }
-
-h1{
-
+h1 {
   font-family: 'Libre Barcode 128 Text', cursive;
   text-align: center;
   font-size: 75px;
- color: black;
+  color: black;
 }
-body{
-  /*background: url("background_ice.png") /*no-repeat right top;*/
-  /*background-image: url(images/background_ice.png);
-      background-repeat: no-repeat;
-      background-position: center;*/
 
-
-
+body {
+  *background: url("background_ice.png");
+    /*no-repeat right top;*/
+    background-image: url(images/background_ice.png);
+  background-repeat: no-repeat;
+  background-position: center;
 }
+
 /*@media only screen and (min-width: 768px) {
   /* CSS rule sets */
 /*}*/
