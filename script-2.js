@@ -9,7 +9,7 @@ function setup() {
   myCanvas.parent('mySketch');
 
   img = loadImage("images/banner.png"); //Had trouble putting the image in.
-
+img = loadImage("images/banner-2.png");
 
 }
 
@@ -19,8 +19,7 @@ function draw() {
     image(img, 0, 0);
 
 
-  if (mouseIsPressed)
-  img = loadImage("images/banner-2.png"); { //when mouse is pressed on program it reacts
+  if (mouseIsPressed) { //when mouse is pressed on program it reacts
     fill(random(250), random(255), random(255));
     ellipse(165, 110, 55, 55);
     ellipse(617, 110, 55, 55);
@@ -39,6 +38,7 @@ function draw() {
     fill('#F43D2F');
     ellipse(165, 110, 5, 5);
     ellipse(617, 110, 5, 5);
+      image(img, 0, 0);
   }
 
 }
