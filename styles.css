@@ -42,15 +42,15 @@ section {
   /*didnt like the look background-color: lightblue;*/
   font-family: 'Coiny', cursive;
   background-image: url(images/background_ice.png);
-  background-repeat: no-repeat;
   background-position: center;
+
 }
 
 footer {
   position: fixed;
   left: 0;
   bottom: 0;
-  padding-left: 100%;
+  padding-left: 768px;
   /*padding-left: 100%;
   padding-right: 100%;*/
 
