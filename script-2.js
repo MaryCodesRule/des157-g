@@ -42,8 +42,6 @@ function draw() {
     ellipse(617, 110, 5, 5);
 
   }
-  else (mouseIsPressed){
-    img = loadImage("images/banner.png");
-  }
+  
 
 }
