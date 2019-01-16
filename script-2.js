@@ -9,11 +9,12 @@ function setup() {
   myCanvas.parent('mySketch');
 
   img = loadImage("images/banner.png"); //Had trouble putting the image in.
-  img = loadImage("images/background_ice.png"); 
+  img2 = loadImage("images/background_ice.png");
 }
 
 function draw() {
   console.log('img');
+    image(img2, width, height);
     image(img, 0, 0);
   if (mouseIsPressed) { //when mouse is pressed on program it reacts
     fill(random(250), random(255), random(255));
