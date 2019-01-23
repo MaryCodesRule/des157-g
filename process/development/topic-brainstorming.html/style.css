@@ -9,3 +9,7 @@ p{
   font-family: 'Libre Barcode 128 Text', cursive;
   text-align: center;
 }
+
+footer{
+  position: fixed;
+}
