@@ -3,6 +3,11 @@
    width: 768px;
  }*/
 /* It doesn't seem like I need a header*/
+*display {
+  box-sizing: border-box;
+}
+
+
 #mySketch {
   height: 250px;
   width: 800px;
@@ -14,10 +19,10 @@
 
 
 header {
-  display: block;
+  /* display: block; */
   margin-left: auto;
   margin-right: auto;
-  width: 60%;
+  width: 800px;
 
 
 
@@ -73,7 +78,3 @@ h1 {
 body{
   background-color: white;
 }
-
-/*@media only screen and (min-width: 768px) {
-  /* CSS rule sets */
-/*}*/
