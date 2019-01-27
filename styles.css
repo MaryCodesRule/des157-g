@@ -5,7 +5,7 @@
 /* It doesn't seem like I need a header*/
 *display {
   box-sizing: border-box;
-
+}
 
 #mySketch {
   height: 250px;
