@@ -48,13 +48,14 @@ footer {
   left: 0;
   bottom: 0;
   width: 100%;
-  padding-top: 35px;
+  padding-top: 37px;
   /*width: 100%;
   max-width: 768px;*/
   text-align: center;
    background-color:#B6B5CD;
   font-family: 'Coiny', cursive;
   color: white;
+  font-size: 25px;
 }
 
 h1 {
