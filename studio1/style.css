@@ -1,73 +1,73 @@
-
-*display{
-  height: 768px;
+   *{
+  box-sizing: border-box;
 }
-.element {
+
+form {
   /* width: 100%; */
-  height: 100%;
-  animation: pulse 5s infinite;
-  display: block;
-  background-color: lightblue;
-  margin-left:auto;
-  margin-right:auto;
-  height: 518px;
-  width: 80%;
+  /* height: 100%; */
+  /* animation: pulse 5s infinite; */
+   /* display: block; */
+
+  margin-left: auto;
+  margin-right: auto;
+  /* height: 300px;
+  width: 40%;
   text-align: center;
   padding-top: 10px;
-  border-radius: 100px;
+  border-radius: 100px; */
+  float: left;
 }
 
-@keyframes pulse {
+/* @keyframes pulse {
   0% {
     background-color: #FFB0CD;
   }
+
   20% {
     background-color: #EAB0FF;
   }
+
   40% {
     background-color: #9361FF;
   }
+
   60% {
     background-color: #6187FF;
   }
+
   80% {
     background-color: #61CAFF;
-  }
-  100% {
+  } */
+
+  /* 100% {
     background-color: #61FFCA;
   }
-}
+} */
 
-html,
+  html,
 body {
-background: linear-gradient(#F5FCEE,#ECC8E6,#F6E2F3);
-width: 1366px;
-background-repeat: no-repeat;
+  background: linear-gradient(#F5FCEE, #ECC8E6, #F6E2F3);
+  width: 1366px;
+  background-repeat: no-repeat;
+  height: 100%;
 }
 
+/* header {
+  width: 800px;
+} */
 
-header{
-
-  width:800px;
-
-}
-
-#mySketch{
+/* #mySketch {
   height: 250px;
   width: 800px;
   background-image: url(images/eyes_banner_2.png);
   border-radius: 100px;
-  margin:auto;
-
-
+  margin: auto;
   animation:
     pulse 3s ease infinite alternate,
     nudge 5s linear infinite alternate;
-
 }
 
-
- @keyframes nudge {
+@keyframes nudge {
   0%, 100% {
     transform: translate(0, 0);
   }
@@ -75,23 +75,118 @@ header{
   50% {
     transform: translate(518px, 0);
   }
+
   100% {
     transform: translate(-300px, 0);
   }
-}
-h2, h3{
+} */
+
+h2, h3 {
   font-family: 'Major Mono Display', monospace;
 }
-input,text{
+
+input, text {
   font-family: 'Major Mono Display', monospace;
 }
-footer{
+ #myMsg{
+  font-size:15px;
+
+}
+#msgContainer {
+width: 50%;
+  float: right;
+  margin-right: 100px;
+  border-radius: 12px;
+  /* background-color: lightblue; */
+  padding-top: 10%;
+
+}
+
+
+
+
+footer {
   position: fixed;
   left: 0;
   bottom: 0;
-  /* background:lightblue; */
+   background:lightblue;
   border-radius: 10px;
-  /* padding: 5px; */
-  /* width: 100%; */
+  padding: 5px;
+   width: 100%;
   text-align: center;
+}
+
+
+
+
+
+ fieldset {
+  display: grid;
+  width: 100%;
+  padding: 30px;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  /* grid-gap: 1%; */
+  border: 0;
+background: lightblue;
+  /* margin-bottom: 0; */
+  border-radius: 5px;
+}
+
+ fieldset > label {
+  text-align: left;
+
+}
+
+
+input[type="text"] {
+   width: 90%;
+   /* max-width: 5in;  */
+  /* min-width: 300px; */
+  padding: 2%;
+  /* border: none; remove default */
+  border-bottom: 8px pink solid;
+  font-weight: bold;
+  font-size: 1.5em;
+  background-color: hotpink;
+  color: antiquewhite;
+
+}
+
+input[type="text"]:focus {
+  border-bottom: 8px purple solid;
+  background-color: antiquewhite;
+  color: black;
+}
+
+input[type="submit"],
+input[type="reset"] {
+  width: auto;
+  padding: 10px;
+  border: 0px;
+  border-radius: 10px;
+  margin-right: 5%;
+  font-size: 10px;
+  font-weight: bold;
+  text-align: center;
+  background: lightblue;
+  color: #333;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+  background: white;
+  color: lightblue;
+}
+
+#msg {
+  width: 50%;
+  padding: 2em;
+  margin: 2em 12em;
+  border-radius: 12px;
+  background-color:lightblue;
+}
+
+#myMsg {
+  font-size:1.5em;
 }

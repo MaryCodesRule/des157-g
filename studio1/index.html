@@ -1,72 +1,117 @@
-<!DOCTYPE html>
-<!-- webpage in english -->
+ <!DOCTYPE html>
+ <!--webpage in english -->
 <html lang="en">
 
 <head>
-  <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
   <meta charset="UTF-8">
 
   <!-- link to normalize first -->
   <link href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" rel="stylesheet" />
-  <!-- then link to your fonts -->
-<link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Major+Mono+Display" rel="stylesheet">
+   <!-- then link to your fonts  -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Major+Mono+Display" rel="stylesheet">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/p5.js"></script>
-  <link href="style.css" rel="stylesheet">
-
-  <title>Studio 1</title>
+    <link href="style.css" rel="stylesheet">
+<title>Madlibs</title>
 </head>
+
 <body>
-<header>
-    <div id="mySketch"></div>
+  <header>
+    <h1>The Future is Yours!!</h1>
+  </header>
 
-</header>
+  <!-- <section id="formSection"> -->
+    <form>
 
-     <form>
-      <div class="element"> <!--<form action="/"> I am not sure what would go here for the form to recieve properly-->
+      <fieldset>
+        <label for="userName">Name:</label>
+        <input type="text" name="userName" id="userName" >
+      </fieldset>
+      <fieldset>
+        <label for="yourAge">Age:</label>
+        <input type="text" name="age" id="yourAge" >
+      </fieldset>
+      <!-- <fieldset>
+<p>What do you like to do with your free time?</p>
+</fieldset>
+       <fieldset>
 
-    <h2>Name<br></h2>
-    First:<br>
-    <input type="text" name="firstname" value="">
-    <br>
-    Last:<br>
-    <input type="text" name="lastname" value=""><br><br>
-    <input type="button" onclick="alert('You are almost there!!')" value="Press me!">
-    <h3>Pick Your Sign</h3>
-    <label for="aries">Aries:The Ram</label>
-    <input type="radio" name="signs" id=aries value="March 21-April 19"><br><br>
+        <label for="read">Reading</label>
+         <input type="radio" id="read" name="reading" value="reading"><br><br>
+         <label for="dancing">Dance</label>
+          <input type="radio" id="dancing" name="dance" value="dancing"><br><br>
+          <label for="watch">Watching TV</label>
+           <input type="radio" id="watch" name="watch" value="watching tv"><br><br>
+           <label for="code">Coding</label>
+            <input type="radio" id="code" name="code" value="coding"><br><br>
+            <label for="exercise">Working Out</label>
+             <input type="radio" id="exercise" name="exercise" value="exercising"><br><br>
 
-    <label for="taurus">Taurus: The Bull</label>
-    <input type="radio" name="signs" id=taurus value="April 20-May 20"><br><br>
+       </fieldset>  -->
+      <fieldset>
 
+       <p>Pick Three Colors<p>
+       </fieldset>
 
-    <label for="leo">Leo:The Lion</label>
-    <input type="radio" name="signs" id=leo value="July 23-Aug 22"><br><br>
-
-
-    <label for="gemini">Gemini:The Twins</label>
-    <input type="radio" name="signs" id=gemini value="May 21-Jun 20"><br><br>
-
-
-    <label for="cancer">Cancer:The Crab</label>
-    <input type="radio" name="signs" id=cancer value="June 21-July 22"><br><br>
-
-
-    <label for="sagittarius">Sagittarius:The Archer</label>
-    <input type="radio" name="signs" id=sagittarius value="Nov 22-Dec 21"><br>
-<br>
-    <input type="submit" value="submit" id="submit"> <!-- If I click submit the input will be sent to whereever is linked in the form action class -->
-<input type="reset" value="reset" id="reset">
-
+           <fieldset>
+         <div>
+<input type="checkbox" name="color" id="colGreen" value="green">
+ <label for="colGreen">Green</label><br>
 </div>
-</form>
-<footer>
-<br>  <a href="https://validator.w3.org/check?uri=referer">Valid HTML 5</a>
+<div>
+ <input type="checkbox" name="color" id="colBlack" value="black">
+ <label for="colBlack">Black</label><br>
+</div>
+<div>
+ <input type="checkbox" name="color" id="colLavender" value="lavender">
+ <label for="colLavender">Lavender</label><br>
+</div>
+<div>
+<input type="checkbox" name="color" id="colBlue" value="blue">
+ <label for="colGreen">Blue</label><br>
+</div>
+<div>
+ <input type="checkbox" name="color" id="colRed" value="red">
+ <label for="colBlack">Red</label><br>
+</div>
+<div>
+ <input type="checkbox" name="color" id="colYellow" value="yellow">
+ <label for="colLavender">Yellow</label><br>
+</div>
+
+
+        <div>
+        <input type="reset" value="reset" id="r"/>
+        <input type="submit" value="submit" id="submit" />
+        </div>
+       </fieldset>
+    </form>
+  <!-- </section> -->
+
+   <section id="msgContainer">
+    <p id="myMsg"></p>
+  </section>
+  <section>
+    <!-- <div class="tarot-container">
+      <div class="tarot">
+      <div class="turn"><img src="images/tarot1.jpeg" alt="1" height="200" width="125"></div>
+ <img src="images/tarot2.jpeg" alt="1" height="200" width="125">
+<img src="images/tarot3.jpeg" alt="1" height="200" width="125">
+<img src="images/tarot4.jpeg" alt="1" height="200" width="125">
+<img src="images/tarot5.jpeg" alt="1" height="200" width="125">
+<img src="images/tarot6.jpeg" alt="1" height="200" width="125">
+
+      <div class="tarot back">tarot</div>
+    </div>
+      </div> -->
+    </section>
+  <footer>
+    <a href="https://validator.w3.org/check?uri=referer">Valid HTML 5</a>
 
 <a href="https://jigsaw.w3.org/css-validator/check/referer">Valid CSS</a>
-  <script src="script-2.js"></script>
-
-</footer>
+  </footer>
+      <script src="script.js"></script>
 </body>
 
 </html>

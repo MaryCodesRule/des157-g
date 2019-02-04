@@ -1,0 +1,44 @@
+*{
+  box-sizing: border-box;
+}
+ body{
+  width: 1366px;
+  height: 768px;
+}
+
+
+button {
+  width:14em;
+  height: 100%;
+  padding:2em;
+  border:0;
+  border-radius:11px;
+   background-color:turquoise;
+  font-size:2em;
+
+}
+
+#wallet{
+  width:14em;
+  height: 100%;
+  padding:2em;
+  border:0;
+  border-radius:11px;
+   background-color:turquoise;
+  font-size:2em;
+
+}
+#pallete{
+
+}
+#water{
+
+}
+footer{
+  position: fixed;
+  bottom:0;
+  left:0;
+}
+@media only screen and (min-width: 769px) {
+
+}
