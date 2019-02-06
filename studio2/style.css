@@ -31,7 +31,9 @@ opacity: 0.85;
  */
 
 
-
+#wallet{
+    background-color:#f6f4f3;
+}
 
 
 footer{
@@ -42,15 +44,15 @@ footer{
 
  @media only screen and (min-width: 769px) {
    body{
-     background-color: #af5b5b;
+     background-color:#879954;
    }
    #wallet{
      /* width:10%; */
      height: 10%;
       padding: 1%;
      border:5px solid #af5b5b;
-     border-radius:5%;
-      background-color:#f6f4f3;
+     /* border-radius:5%; */
+      background-color:#EF96C0;
      /* font-size:2em; */
      display: block;
      /* margin-left: auto; */
@@ -71,8 +73,8 @@ footer{
      /* height: 10%; */
      padding:1%;
      border:5px solid #af5b5b;
-     border-radius:5%;
-      background-color:#fb3640;
+     /* border-radius:5%; */
+      background-color:#CC4F23;
      /* font-size:2em; */
      position: relative;
      display: block;
@@ -91,8 +93,8 @@ footer{
      height: 50%;
      /* padding:1%; */
       border:5px solid #af5b5b;
-     border-radius:5%;
-      background-color:#276fbf;
+     /* border-radius:5%; */
+      background-color:#af5b5b;
 
      /* position: relative; */
      display: block;
