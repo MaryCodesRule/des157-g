@@ -29,7 +29,7 @@ console.log("mousedown on button");
   });
 
   function on() {
-    document.getElementById("overlay").style/display="block";
+    document.getElementById("overlay").style.display="block";
 
   }
 
