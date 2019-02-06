@@ -28,6 +28,69 @@ opacity: 0.85;
 }
 
 
+#wallet{
+  /* width:10%; */
+  height: 10%;
+   padding: 1%;
+  border:5px solid lightblue;
+  border-radius:5%;
+   background-color:turquoise;
+  /* font-size:2em; */
+  display: block;
+  /* margin-left: auto; */
+  /* margin-right:50%; */
+  width: 50%;
+  float: left;
+  /* background-position: center; */
+  /* background-repeat: no-repeat; */
+  /* background-size:cover; */
+
+
+
+
+
+}
+#pallete{
+  /* width:10%; */
+  /* height: 10%; */
+  padding:1%;
+  border:5px solid lightblue;
+  border-radius:5%;
+   background-color:turquoise;
+  /* font-size:2em; */
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  /* background-position: center; */
+  /* background-repeat: no-repeat; */
+  /* background-size:cover; */
+
+
+  }
+
+#water{
+
+  height: 50%;
+  /* padding:1%; */
+   border:5px solid lightblue;
+  border-radius:5%;
+   background-color:turquoise;
+
+  /* position: relative; */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  float: left;
+ background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+
+  }
+
+
 
 
 footer{
@@ -37,66 +100,7 @@ footer{
 }
 
  @media only screen and (min-width: 769px) {
-   #wallet{
-     /* width:10%; */
-     height: 10%;
-      padding: 1%;
-     border:5px solid lightblue;
-     border-radius:5%;
-      background-color:turquoise;
-     /* font-size:2em; */
-     display: block;
-     /* margin-left: auto; */
-     /* margin-right:50%; */
-     width: 50%;
-     float: left;
-     /* background-position: center; */
-     /* background-repeat: no-repeat; */
-     /* background-size:cover; */
-
-
-
-
-
-   }
-   #pallete{
-     /* width:10%; */
-     /* height: 10%; */
-     padding:1%;
-     border:5px solid lightblue;
-     border-radius:5%;
-      background-color:turquoise;
-     /* font-size:2em; */
-     position: relative;
-     display: block;
-     margin-left: auto;
-     margin-right: auto;
-     width: 50%;
-     /* background-position: center; */
-     /* background-repeat: no-repeat; */
-     /* background-size:cover; */
-
-
-     }
-
-   #water{
-
-     height: 50%;
-     /* padding:1%; */
-      border:5px solid lightblue;
-     border-radius:5%;
-      background-color:turquoise;
-
-     /* position: relative; */
-     display: block;
-     margin-left: auto;
-     margin-right: auto;
-     width: 100%;
-     float: left;
-    background-position: center;
-     background-repeat: no-repeat;
-     background-size:cover;
-
-     }
-
+   body{
+     background-color: #183059;
  }
+}
