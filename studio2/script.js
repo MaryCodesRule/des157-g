@@ -27,3 +27,12 @@ water.addEventListener("mousedown", function() {
 console.log("mousedown on button");
  water.innerHTML = "Gotta Stay Hydrated!";
   });
+
+  function on() {
+    document.getElementById("overlay").style/display="block";
+
+  }
+
+  function off() {
+    document.getElementById("overlay").style.display="none";
+  }
