@@ -7,9 +7,7 @@
 
 }
 
-button{
-  background-color: #00FFCD;
-}
+
 /* #overlay1{
 
 position: absolute;
@@ -32,14 +30,32 @@ opacity: 0.85;
 
 
 #wallet{
-    background-color:#f6f4f3;
+      background-color:#EF96C0;
+           border:5px solid #af5b5b;
 }
-
-
+#water{
+    background-color:#af5b5b;
+         border:5px solid #af5b5b;
+}
+#pallete{
+    background-color:#CC4F23;
+         border:5px solid #af5b5b;
+}
 footer{
   position: fixed;
   bottom:0;
   left:0;
+}
+img {
+transition: transform .5s ease-in-out;
+
+
+}
+
+img:hover{
+  transform:rotate(250deg);
+
+
 }
 
  @media only screen and (min-width: 769px) {
