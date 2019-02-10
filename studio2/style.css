@@ -4,7 +4,7 @@
  body, html {
   /* width: 1366px;
   height: 768px; */
-
+background-color: #90DDC7;
 }
 
 
@@ -27,19 +27,25 @@ opacity: 0.85;
   right: 10px;
 }
  */
-
+button{
+  color: #90DDC7;
+}
 
 #wallet{
-      background-color:#EF96C0;
-           border:5px solid #af5b5b;
+      background-color:#EEEFA8;
+           border:5px solid  #FAFDF6;
+
+
+
+
 }
 #water{
-    background-color:#af5b5b;
-         border:5px solid #af5b5b;
+    background-color:#EEEFA8;
+         border:5px solid  #FAFDF6;
 }
 #pallete{
-    background-color:#CC4F23;
-         border:5px solid #af5b5b;
+    background-color:#EEEFA8;
+         border:5px solid  #FAFDF6;
 }
 footer{
   position: fixed;
@@ -58,17 +64,31 @@ img:hover{
 
 }
 
+#overlay{
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left:0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.8);
+  z-index: 2;
+  cursor: pointer;
+}
+
  @media only screen and (min-width: 769px) {
    body{
-     background-color:#879954;
+     background-color:#90DDC7;
    }
    #wallet{
      /* width:10%; */
      height: 10%;
       padding: 1%;
-     border:5px solid #af5b5b;
+     border:5px solid #FAFDF6;
      /* border-radius:5%; */
-      background-color:#EF96C0;
+      background-color:#EEEFA8;
      /* font-size:2em; */
      display: block;
      /* margin-left: auto; */
@@ -88,9 +108,9 @@ img:hover{
      /* width:10%; */
      /* height: 10%; */
      padding:1%;
-     border:5px solid #af5b5b;
+     border:5px solid #FAFDF6;
      /* border-radius:5%; */
-      background-color:#CC4F23;
+      background-color:#EEEFA8;
      /* font-size:2em; */
      position: relative;
      display: block;
@@ -108,9 +128,9 @@ img:hover{
 
      height: 50%;
      /* padding:1%; */
-      border:5px solid #af5b5b;
+      border:5px solid #FAFDF6;
      /* border-radius:5%; */
-      background-color:#af5b5b;
+      background-color:#EEEFA8;
 
      /* position: relative; */
      display: block;
@@ -123,26 +143,44 @@ img:hover{
      background-size:cover;
 
      }
-     #overlay{
-       position: fixed;
-       display: none;
-       width: 100%;
-       height: 100%;
-       top: 0;
-       left:0;
-       right: 0;
-       bottom: 0;
-       border-color: rgba(0,0,0,0.5);
-       z-index: 2;
-       cursor: pointer;
-     }
-#text{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  font-size: 50px;
-  color: white;
-  transform: translate(-50%, -50%);
-}
 
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+/* The typewriter cursor effect */
+@keyframes blinking-cursor {
+  from, to { border-color: transparent }
+  50% { border-color: purple; }
+}
+.nav a{
+  display:inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  font-size: 17px;
+  border-radius: 5px;
+}
+.nav a.active{
+
+  color: white;
+}
+.nav a:hover{
+  background-color:#EEEFA8;
+  color: white;
+}
+#typewriter{
+font-family: monospace; /* Web-safe typewriter-like font */
+overflow: hidden; /* Ensures the content is not revealed until the animation */
+border-right: .15em solid purple; /* The typwriter cursor */
+white-space: nowrap; /* Keeps the content on a single line */
+margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+letter-spacing: .15em; /* Adjust as needed */
+animation:
+typing 3.5s steps(30, end),
+blinking-cursor .5s step-end infinite;
+color: white;
+}
 }
