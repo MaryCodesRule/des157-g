@@ -106,12 +106,12 @@ function processForm(evt) {
   // document.querySelector('#myMsg'"').innerHTML = "you selected: " + response;
 
 
-  if (response=='colLavender') {
-    myMsg.innerHTML = 'you got email!' ;
-  } else if (response=='colBlue', 'colRed') {
-    myMsg.innerHTML = 'my favorite Blondie song is \"Call Me\"';
+  if (response=='colLavender,colBlack,colGreen') {
+    myMsg.innerHTML = 'You crave adventure, excitement! You love to have fun and the people around you reflect that, but careful not to let it distract you. You are on the right path!!'+ userName+yourAge;
+  } else if (response=='colBlue', 'colRed, colYellow') {
+    myMsg.innerHTML = 'Your a quiet storm. You flourish when you have the tools to explore. Do Not be afraid to do something new. You deserve to have a different kind of fun';
   } else{
-    myMsg.innerHTML = 'omg...that is so old school!';
+    myMsg.innerHTML = 'Whew I want to read your fortune, but you dont have enough filled out!';
   }
   // if (response=="colBlack"+ "colYellow"+ ) {
   //   myMsg.innerHTML = 'my favorite Blondie song is \"Call Me\"';

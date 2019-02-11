@@ -1,191 +1,184 @@
-*{
+* {
   box-sizing: border-box;
 }
- body, html {
+
+body {
   /* width: 1366px;
   height: 768px; */
-background-color: #90DDC7;
+  background-color: #90DDC7;
 }
 
-
-/* #overlay1{
-
-position: absolute;
-top: 0;
-left: 0;
-width: 100%;
-height: 100%;
-background-color: #000;
-color: deeppink;
-display: none;
-opacity: 0.85;
-
-}
-#close {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-}
- */
-button{
+button {
   color: dodgerblue;
+  font-size: 40px;
+  font-family: 'Nanum Pen Script', cursive;
 }
 
-#wallet{
-      background-color:#EEEFA8;
-           border:5px solid  #FAFDF6;
-
-
-
-
+#wallet {
+  background-color: #EEEFA8;
+  border: 5px solid #FAFDF6;
 }
-#water{
-    background-color:#EEEFA8;
-         border:5px solid  #FAFDF6;
+
+#water {
+  background-color: #EEEFA8;
+  border: 5px solid #FAFDF6;
 }
-#pallete{
-    background-color:#EEEFA8;
-         border:5px solid  #FAFDF6;
+
+#pallete {
+  background-color: #EEEFA8;
+  border: 5px solid #FAFDF6;
 }
-footer{
+
+footer {
   position: fixed;
-  bottom:0;
-  left:0;
+  bottom: 0;
+  left: 0;
 }
+
 img {
-transition: transform .5s ease-in-out;
-
-
+  transition: transform .5s ease-in-out;
 }
 
-img:hover{
-  transform:rotate(300deg);
-
-
+img:hover {
+  transform: rotate(300deg);
 }
 
-#overlay{
+#overlay {
   position: absolute;
   display: none;
   width: 100%;
   height: 100%;
   top: 0;
-  left:0;
+  left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0,0,0,0.8);
+  background-color: rgba(0, 0, 0, 0.8);
   z-index: 2;
   cursor: pointer;
   background-image: url('images/type-dark.png');
   background-repeat: repeat-x;
 }
 
- @media only screen and (min-width: 769px) {
-   body{
-     background-color:#90DDC7;
-   }
-   #wallet{
-     /* width:10%; */
-     height: 10%;
-      padding: 1%;
-     border:5px solid #FAFDF6;
-     /* border-radius:5%; */
-      background-color:#EEEFA8;
-     /* font-size:2em; */
-     display: block;
-   margin-left: auto;
-     /* margin-right:50%; */
-     width: 50%;
-     float: left;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-image: url('images/type-light.png');
-     }
-   #pallete{
-     /* width:10%; */
-     /* height: 10%; */
-     padding:1%;
-     border:5px solid #FAFDF6;
-     /* border-radius:5%; */
-      background-color:#EEEFA8;
-     /* font-size:2em; */
-     position: relative;
-     display: block;
-     margin-left: auto;
-     margin-right: auto;
-     width: 50%;
-      background-position: center;
-       background-repeat: no-repeat;
-      background-size:cover;
-     background-image: url('images/type-light.png');
+@media only screen and (min-width: 769px) {
+  body {
+    background-color: #90DDC7;
+  }
 
-     ;
-
-     }
-
-   #water{
-
-     height: 50%;
-     /* padding:1%; */
-      border:5px solid #FAFDF6;
-     /* border-radius:5%; */
-      background-color:#EEEFA8;
-
-     /* position: relative; */
-     display: block;
-     margin-left: auto;
-     margin-right: auto;
-     width: 100%;
-     float: left;
+  #wallet {
+    /* width:10%; */
+    height: 10%;
+    padding: 1%;
+    border: 5px solid #FAFDF6;
+    /* border-radius:5%; */
+    background-color: #EEEFA8;
+    /* font-size:2em; */
+    display: block;
+    margin-left: auto;
+    /* margin-right:50%; */
+    width: 50%;
+    float: left;
     background-position: center;
-     background-repeat: no-repeat;
-     background-size:cover;
-     background-image: url('images/type-light.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('images/type-light.png');
+  }
 
-     }
+  #pallete {
+    /* width:10%; */
+    /* height: 10%; */
+    padding: 1%;
+    border: 5px solid #FAFDF6;
+    /* border-radius:5%; */
+    background-color: #EEEFA8;
+    /* font-size:2em; */
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('images/type-light.png');
+    ;
+  }
 
-/* The typing effect */
-@keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
-}
-/* The typewriter cursor effect */
-@keyframes blinking-cursor {
-  from, to { border-color: transparent }
-  50% { border-color: purple; }
-}
-.nav a{
-  display:inline-block;
-  color: white;
-  text-align: center;
-  padding: 14px;
-  text-decoration: none;
-  font-size: 17px;
-  border-radius: 5px;
-}
-.nav a.active{
+  #water {
+    height: 50%;
+    /* padding:1%; */
+    border: 5px solid #FAFDF6;
+    /* border-radius:5%; */
+    background-color: #EEEFA8;
+    /* position: relative; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    float: left;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('images/type-light.png');
+  }
 
-  color: white;
-}
-.nav a:hover{
-  background-color:#EEEFA8;
-  color: white;
-}
-#typewriter{
-font-family: monospace; /* Web-safe typewriter-like font */
-overflow: hidden; /* Ensures the content is not revealed until the animation */
-border-right: .15em solid purple; /* The typwriter cursor */
-white-space: nowrap; /* Keeps the content on a single line */
-margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-letter-spacing: .5em;
-animation:
-typing 3.5s steps(30, end),
- blinking-cursor .5s step-end infinite;
-color: white;
+  /* The typing effect */
+  @keyframes typing {
+    from {
+      width: 0
+    }
 
+    to {
+      width: 100%
+    }
+  }
 
+  /* The typewriter cursor effect */
+  @keyframes blinking-cursor {
+    from, to {
+      border-color: transparent
+    }
 
-}
+    50% {
+      border-color: purple;
+    }
+  }
 
+  .nav a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 5px;
+  }
+
+  .nav a.active {
+    color: white;
+  }
+
+  .nav a:hover {
+    background-color: #EEEFA8;
+    color: white;
+  }
+
+  .typewriter {
+    font-family: 'Nova Mono', monospace;
+    /* Web-safe typewriter-like font, monospace */
+    overflow: hidden;
+    /* Ensures the content is not revealed until the animation */
+    border-right: .5em solid purple;
+    /* The typwriter cursor */
+    white-space: normal;
+    /*nowrap; Keeps the content on a single line */
+    margin: 0 auto;
+    /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .2em;
+    animation:
+      typing 3.5s steps(30, end),
+      blinking-cursor .5s step-end infinite;
+    float: right;
+    font-size: 2em;
+    color: white;
+  }
 }
