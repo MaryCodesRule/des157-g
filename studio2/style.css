@@ -28,7 +28,7 @@ opacity: 0.85;
 }
  */
 button{
-  color: #90DDC7;
+  color: dodgerblue;
 }
 
 #wallet{
@@ -59,13 +59,13 @@ transition: transform .5s ease-in-out;
 }
 
 img:hover{
-  transform:rotate(250deg);
+  transform:rotate(300deg);
 
 
 }
 
 #overlay{
-  position: fixed;
+  position: absolute;
   display: none;
   width: 100%;
   height: 100%;
@@ -76,6 +76,8 @@ img:hover{
   background-color: rgba(0,0,0,0.8);
   z-index: 2;
   cursor: pointer;
+  background-image: url('images/type-dark.png');
+  background-repeat: repeat-x;
 }
 
  @media only screen and (min-width: 769px) {
@@ -91,19 +93,15 @@ img:hover{
       background-color:#EEEFA8;
      /* font-size:2em; */
      display: block;
-     /* margin-left: auto; */
+   margin-left: auto;
      /* margin-right:50%; */
      width: 50%;
      float: left;
-     /* background-position: center; */
-     /* background-repeat: no-repeat; */
-     /* background-size:cover; */
-
-
-
-
-
-   }
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-image: url('images/type-light.png');
+     }
    #pallete{
      /* width:10%; */
      /* height: 10%; */
@@ -117,10 +115,12 @@ img:hover{
      margin-left: auto;
      margin-right: auto;
      width: 50%;
-     /* background-position: center; */
-     /* background-repeat: no-repeat; */
-     /* background-size:cover; */
+      background-position: center;
+       background-repeat: no-repeat;
+      background-size:cover;
+     background-image: url('images/type-light.png');
 
+     ;
 
      }
 
@@ -141,6 +141,7 @@ img:hover{
     background-position: center;
      background-repeat: no-repeat;
      background-size:cover;
+     background-image: url('images/type-light.png');
 
      }
 
@@ -177,10 +178,14 @@ overflow: hidden; /* Ensures the content is not revealed until the animation */
 border-right: .15em solid purple; /* The typwriter cursor */
 white-space: nowrap; /* Keeps the content on a single line */
 margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-letter-spacing: .15em; /* Adjust as needed */
+letter-spacing: .5em;
 animation:
 typing 3.5s steps(30, end),
-blinking-cursor .5s step-end infinite;
+ blinking-cursor .5s step-end infinite;
 color: white;
+
+
+
 }
+
 }
