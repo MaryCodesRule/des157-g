@@ -53,9 +53,10 @@ var submit = document.querySelector('input[type="submit"]');
 var myMsg = document.querySelector('#myMsg');
 
 //querySelectorAll returns all matches into an array
-var userName = document.querySelector("#userName");
-var yourAge = document.querySelector("#yourAge");
-var colLavender = document.querySelector("#colLavender");
+var userName = document.querySelector('#userName').value;
+var yourAge = document.querySelector('#yourAge').value;
+// var t1 = document.querySelector('#tarot1.jpeg').value;
+var colLavender = document.querySelector('#colLavender');
 var colRed = document.querySelector('#colRed');
 var colGreen = document.querySelector('#colGreen');
 var colYellow = document.querySelector('#colYellow');
@@ -63,22 +64,22 @@ var colBlack = document.querySelector('#colBlack');
 var colBlue = document.querySelector('#colBlue');
 
 //add events for the radio buttons
-userName.addEventListener("click", userNameSelected);
-yourAge.addEventListener("click", yourAgeSelected);
-colLavender.addEventListener("click", colLavenderSelected);
-colRed.addEventListener("click", colRedSelected);
-colBlue.addEventListener("click", colBlueSelected);
-colGreen.addEventListener("click", colGreenSelected);
-colYellow.addEventListener("click", colYellowSelected);
-colBlack.addEventListener("click", colBlackSelected);
+// userName.addEventListener('click', userNameSelected);
+// yourAge.addEventListener('click', yourAgeSelected);
+colLavender.addEventListener('click', colLavenderSelected);
+colRed.addEventListener('click', colRedSelected);
+colBlue.addEventListener('click', colBlueSelected);
+colGreen.addEventListener('click', colGreenSelected);
+colYellow.addEventListener('click', colYellowSelected);
+colBlack.addEventListener('click', colBlackSelected);
 
-function userNameSelected() {
-  response = 'userName';
-}
-
-function yourAgeSelected() {
-  response = 'yourAge';
-}
+// function userNameSelected() {
+//   response = 'userName';
+// }
+//
+// function yourAgeSelected() {
+//   response = 'yourAge';
+// }
 
 function colLavenderSelected() {
   response = 'colLavender';
@@ -99,17 +100,18 @@ function colBlackSelected() {
   response = 'colBlack';
 }
 
-submit.addEventListener("click", processForm);
+submit.addEventListener('click', processForm);
 // r.addEventListener('click', resetForm);
 
 function processForm(evt) {
   // document.querySelector('#myMsg'"').innerHTML = "you selected: " + response;
 
 
-  if (response=='colLavender,colBlack,colGreen') {
-    myMsg.innerHTML = 'You crave adventure, excitement! You love to have fun and the people around you reflect that, but careful not to let it distract you. You are on the right path!!'+ userName+yourAge;
-  } else if (response=='colBlue', 'colRed, colYellow') {
-    myMsg.innerHTML = 'Your a quiet storm. You flourish when you have the tools to explore. Do Not be afraid to do something new. You deserve to have a different kind of fun';
+  if (response=='colLavender') {
+    myMsg.innerHTML =  'You crave adventure, excitement! You love to have fun and the people around you reflect that, but careful not to let it distract you. You are on the right path!!';
+    // myMsg + 'userName'.innerHTML;
+  } else if (response=='colBlue') {
+    myMsg.innerHTML =   'Your a quiet storm. You flourish when you have the tools to explore. Do Not be afraid to do something new. You deserve to have a different kind of fun';
   } else{
     myMsg.innerHTML = 'Whew I want to read your fortune, but you dont have enough filled out!';
   }
