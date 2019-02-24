@@ -1,0 +1,71 @@
+/* *background-size {
+   height: 1366px;
+   width: 768px;
+ }*/
+/* It doesn't seem like I need a header*/
+*display {
+  box-sizing: border-box;
+}
+
+#mySketch {
+  height: 250px;
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  /* border-radius: 25px;*/
+}
+
+header {
+  /* display: block; */
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  color: black;
+  font-size: 20px;
+  text-align: center;
+  height: 268px;
+  grid-column-gap: 25px;
+  margin: 25px;
+}
+
+section {
+  border: 1px solid #B6B5CD;
+  border-style: dotted;
+  border-radius: 5px;
+  /*didnt like the look background-color: lightblue;*/
+  font-family: 'Coiny', cursive;
+  background-image: url(images/background_ice.png);
+  background-position: center;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding-top: 35px;
+  /*width: 100%;
+  max-width: 768px;*/
+  text-align: center;
+   background-color:#B6B5CD;
+  font-family: 'Coiny', cursive;
+  color: white;
+  font-size: 25px;
+}
+
+h1 {
+  font-family: 'Libre Barcode 128 Text', cursive;
+  text-align: center;
+  font-size: 75px;
+  color: #B6B5CD;
+}
+
+body {
+  background: linear-gradient(#F5FCEE,#ECC8E6,#F6E2F3);
+background-repeat: no-repeat;
+}

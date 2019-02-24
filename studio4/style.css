@@ -1,0 +1,41 @@
+#div1  {
+  width: 500px;
+  height: 510px;
+  padding: 10px;
+  border: 1px solid #aaaaaa;
+
+  background-image: url(images/girl-back.png);
+  background-size: contain;
+}
+#div2{
+  width: 500px;
+  height: 510px;
+  padding: 10px;
+  border: 1px solid #aaaaaa;
+
+}
+#div1, #div2{
+  display: inline-block;
+  /* column-gap: 2em; */
+
+}
+#drag1, #drag2, #drag3, #drag4{
+  height: 500px;
+  width:500px;
+   position: absolute;
+}
+#drag1{
+
+
+}
+#drag2{
+
+}
+
+#drag3{
+
+}
+
+#drag4{
+  
+}
