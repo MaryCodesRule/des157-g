@@ -4,19 +4,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
     <title>Take Me To The Library</title>
   </head>
   <body>
 
 
+<div class="flex">
 <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-<div id="div2"  ondrop="drop(event)" ondragover="allowDrop(event)">
-<img id="drag1" src="images/micro-braids.png" alt="small" draggable="true" ondragstart="drag(event)" >
-<img id="drag2" src="images/dreadlocks_.png" alt="dreads" draggable="true" ondragstart="drag(event)" >
-<img id="drag3" src="images/blowdry-blowout.png" alt="semi-fro" draggable="true" ondragstart="drag(event)">
-<img id="drag4" src="images/box-braids.png" alt="large" draggable="true" ondragstart="drag(event)">
+
+
+  <div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)" >
+<img id="drag1" src="images/micro-braids.png" alt="small" draggable="true" ondragstart="drag(event)">
+<div class="popup" onclick="myFunction()"><p>Learn More About micro Braids Braids</p>
+  <span class="popuptext" id="myPopup">Tiny braids done with donated or sythetic hair. A protective style: a style
+  to keep hair healthy and stimulate growth.</span>
 </div>
+</div>
+
+
+
+
+
+  <div id="div3"  ondrop="drop(event)" ondragover="allowDrop(event)">
+ <img id="drag2" src="images/dreadlocks_.png" alt="dreads" draggable="true" ondragstart="drag(event)" >
+ <div class="popup" onclick="myFunction1()"><p>Learn More About Dreadlocks</p>
+   <span class="popuptext" id="myPopup1"> Anyone can force there hair into dreadlocks, but kinky afro textured hair actually
+ wants to lock. While dreadlocks are a consious effort, black hair not combed will begin to clump together
+into dread like shapes. To have a more clean stylized(ie.. not The Weeknd) they must be managed and cleaned. Dreadlocks
+MUST BE WASHED. Dreadlocks are not dirty, people are dirty.</span>
+ </div>
+</div>
+
+
+ <div id="div4"  ondrop="drop(event)" ondragover="allowDrop(event)">
+   <img id="drag3" src="images/blowdry-blowout.png" alt="semi-fro" draggable="true" ondragstart="drag(event)">
+ <div class="popup" onclick="myFunction2()"><p>Learn More About Blowout.</p>
+   <span class="popuptext" id="myPopup2">The state of semi straight. That is something betwen a afro and
+     it flatironed. It looks different for everyone and is done for different reasons. Such as to make
+     it easer to braid, straighten or style.</span>
+ </div>
+</div>
+
+ <div id="div5"  ondrop="drop(event)" ondragover="allowDrop(event)">
+   <img id="drag4" src="images/box-braids.png" alt="large" draggable="true" ondragstart="drag(event)">
+   <div class="popup" onclick="myFunction3()"><p>Learn More About Box-Braids</p>
+     <span class="popuptext" id="myPopup3">Box Braids are a style of extsentions. Usually installed with sythentic or
+     donated hair. They are the larger cousins of their micro conterpart.</span>
+  </div>
+</div>
+</div>
+
+ <a href="images/congrats.gif" class="new">It was Fun!!!</a>
+
 <footer><a href="https://validator.w3.org/check?uri=referer">Valid HTML 5</a>
 <a href="https://jigsaw.w3.org/css-validator/check/referer">Valid CSS</a></footer>
 <script src="script.js"></script>

@@ -1,41 +1,261 @@
-#div1  {
-  width: 500px;
-  height: 510px;
-  padding: 10px;
-  border: 1px solid #aaaaaa;
-
-  background-image: url(images/girl-back.png);
-  background-size: contain;
-}
-#div2{
-  width: 500px;
-  height: 510px;
-  padding: 10px;
-  border: 1px solid #aaaaaa;
+*{
+  box-sizing: border-box;
 
 }
-#div1, #div2{
-  display: inline-block;
-  /* column-gap: 2em; */
 
+body{
+   /* width: 1366px; */
+  /* height: 768px; */
+  background-color: #D0EFB1;
 }
-#drag1, #drag2, #drag3, #drag4{
-  height: 500px;
-  width:500px;
-   position: absolute;
+footer{
+  position: fixed;
+  bottom: 0;
+  right: 0;
 }
+
+
+
+
+
 #drag1{
+width:100%;
+height: 60%;
+
 
 
 }
-#drag2{
 
+#drag2{
+  width:100%;
+  height: 57%;
 }
 
 #drag3{
-
+width: 100%;
+height: 55%;
 }
 
 #drag4{
-  
+width:100%;
+height: 60%;
+}
+ @media only screen and (min-width: 769px) {
+body{
+  background-color: #D0EFB1;
+}
+p{
+  font-family: 'Monoton', cursive;
+  font-size: 15px;
+}
+a{
+  font-family: 'Monoton', cursive;
+}
+  .flex{
+    display: flex;
+     /* flex-wrap: wrap; */
+  }
+   .flex div{
+    background: #E9B44C;
+    margin: 1%;
+    padding: 1%;
+    width: 50%;
+    height: 50%;
+  border: 3px solid #E4D6A7;
+  border-radius: 5%;
+  }
+#div1  {
+    width: 100%;
+   height: 550px;
+   /* padding: 100px; */
+
+
+   background-image: url(images/girl-back.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    border-radius: 5%;
+
+   /* width:50%;  */
+
+}
+
+ /* #div2 {
+  width:50%;
+  float: right;
+  padding: 10%; */
+  /* position: relative; */
+  /* top: 2px;
+  height: 5px;
+  border: 1px solid #aaaaaa;
+
+}
+
+ /* #div3{
+  width:25%;
+  float: left;
+  /* position: relative;
+  top: 2px;
+  height: 25%;
+  border: 1px solid #aaaaaa;
+}
+ #div4{
+   width:25%;
+   float: right;
+   /* position: relative;
+   top: 2px;
+   height: 25%;
+ }
+  #div5{
+   /* width: 25%;
+  height: 25%;
+ padding: 50px;
+  width:25%;
+  float: right;
+   position: relative;
+  top: 2px;
+  height: 25%;
+border: 1px solid #aaaaaa;
+} */
+
+/* #div1, #div2, #div3, #div4, #div5{ */
+
+
+
+
+
+/* #drag1, #drag2, #drag3, #drag4{
+
+   /* position: absolute; */
+
+ #drag1{
+width:100%;
+height: 60%;
+
+
+
+}
+
+ #drag2{
+   width:100%;
+   height: 57%;
+}
+
+#drag3{
+width: 100%;
+height: 55%;
+}
+
+#drag4{
+width:100%;
+height: 60%;
+}
+/* Popup container - can be anything you want */
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  user-select: none;
+font-family: 'Arvo', serif;
+
+}
+.popup1 {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+}
+
+/* The actual popup */
+.popup .popuptext {
+  visibility: hidden;
+  width: 160px;
+  background-color: #50A2A7;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px ;
+  position: absolute;
+  z-index: 1;
+  top: 125%;
+  left: 50%;
+  margin-left: -80px;
+
+}
+.popup1 .popuptext {
+  visibility: hidden;
+  width: 500px;
+  background-color: #50A2A7;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 15px ;
+  position: absolute;
+   z-index: 2;
+top: 100%;
+left: 50%;
+  margin-left: -80px;
+
+}
+.popup2 .popuptext {
+  visibility: hidden;
+  width: 500px;
+  background-color: #50A2A7;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 15px ;
+  position: relative;
+  /* z-index: 8; */
+top: 300%;
+  margin-left: -50px;
+
+}
+.popup3 .popuptext {
+  visibility: hidden;
+  width: 500px;
+  background-color: #50A2A7;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 15px ;
+  position: relative;
+  /* z-index: 8; */
+top: 300%;
+  margin-left: -20px;
+
+}
+/* Popup arrow */
+
+
+/* Toggle this class - hide and show the popup */
+.popup .show {
+  visibility: visible;
+
+  animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
+
+
+.new{
+  display: block;
+  background-color: #B3D89C;
+  width: 100%;
+  height: 190px;
+  text-align: center;
+  font-size: 50px;
+border: 5px solid;
+padding: 35px;
+box-shadow: 5px 10px #9B2915;
+}
 }

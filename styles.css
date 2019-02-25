@@ -3,7 +3,7 @@
    width: 768px;
  }*/
 /* It doesn't seem like I need a header*/
-*display {
+* {
   box-sizing: border-box;
 }
 
