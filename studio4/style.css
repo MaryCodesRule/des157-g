@@ -133,25 +133,27 @@ border: 1px solid #aaaaaa;
  #drag1{
 width:100%;
 height: 60%;
-
+position: relative;
 
 
 }
 
  #drag2{
    width:100%;
-   height: 70%;
+   height: 60%;
    position: relative;
 }
 
 #drag3{
 width: 100%;
 height: 60%;
+position: relative;
 }
 
 #drag4{
 width:100%;
 height: 60%;
+position: relative;
 }
 /* Popup container - can be anything you want */
 .popup {
