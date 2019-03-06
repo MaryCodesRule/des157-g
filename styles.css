@@ -28,7 +28,8 @@ header {
   color: black;
   font-size: 20px;
   text-align: center;
-  height: 268px;
+  /* height: 268px; */
+  height: 10%;
   grid-column-gap: 25px;
   margin: 25px;
 }
@@ -68,4 +69,5 @@ h1 {
 body {
   background: linear-gradient(#F5FCEE,#ECC8E6,#F6E2F3);
 background-repeat: no-repeat;
+height: 100%;
 }
