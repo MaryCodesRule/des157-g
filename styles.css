@@ -32,11 +32,12 @@ header {
   height: 100%;
   grid-column-gap: 25px;
   margin: 25px;
+  padding: 25px;
 }
 
 section {
-  border: 1px solid #B6B5CD;
-  border-style: dotted;
+  /* border: 1px solid #B6B5CD; */
+  /* border-style: dotted; */
   border-radius: 5px;
   /*didnt like the look background-color: lightblue;*/
   font-family: 'Coiny', cursive;
@@ -44,12 +45,12 @@ section {
   background-position: center;
 }
 
-footer {
+ footer {
   position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
-  padding-top: 35px;
+  padding-top: 5%;
   /*width: 100%;
   max-width: 768px;*/
   text-align: center;
@@ -68,6 +69,7 @@ h1 {
 
 body {
   background: linear-gradient(#F5FCEE,#ECC8E6,#F6E2F3);
-background-repeat: no-repeat; 
+background-repeat: no-repeat;
 height: 100%;
+
 }
