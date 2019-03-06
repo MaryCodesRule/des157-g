@@ -6,7 +6,7 @@
 * {
   box-sizing: border-box;
 }
-header{
+/* header{
   width:50%;
   height: auto;
 }
@@ -16,7 +16,7 @@ header{
   width: auto;
   margin-left: auto;
   margin-right: auto;
-  /* border-radius: 25px;*/
+  /* border-radius: 25px;
 }
 .grid-container {
   display: grid;
@@ -24,7 +24,7 @@ header{
   color: black;
   font-size: 100%;
   text-align: center;
-  /* height: 268px; */
+  /* height: 268px;
   height: 100%;
   width: 100%;
   grid-column-gap: 2%;
@@ -33,9 +33,9 @@ header{
 }
 section {
   /* border: 1px solid #B6B5CD; */
-  /* border-style: dotted; */
+  /* border-style: dotted;
   border-radius: 2%;
-  /*didnt like the look background-color: lightblue;*/
+  /*didnt like the look background-color: lightblue;
   font-family: 'Coiny', cursive;
   background-image: url(images/background_ice.png);
   background-position: center;
@@ -48,7 +48,7 @@ section {
   width: 100%;
   padding-top: 5%;
   /*width: 100%;
-  max-width: 768px;*/
+  max-width: 768px;
   text-align: center;
    background-color:#B6B5CD;
   font-family: 'Coiny', cursive;
@@ -69,8 +69,14 @@ height: 100%;
 background-color: pink;
 }
 
-@media only screen and (min-width: 769px) {
-
+@media only screen and (min-width: 769px) { */
+#mySketch {
+  height: auto;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  /*border-radius: 25px;*/
+}
 
   header {
     /* display: block; */
@@ -129,5 +135,4 @@ background-repeat: no-repeat; */
 height: 100%;
 background-color: pink;
 
-}
 }
