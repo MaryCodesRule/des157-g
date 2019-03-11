@@ -54,8 +54,14 @@ color: white;
 span{
   font-family: 'Oswald', sans-serif;
   cursor: pointer;
+
+
 }
 span:hover{
   color:lightblue;
 
+
+}
+a{
+  color: white;
 }
