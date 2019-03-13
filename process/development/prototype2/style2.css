@@ -51,7 +51,7 @@ font-size: 3em;
 width:100%;
 left:0;
 background-color: lightblue;
-padding: 3%;
+padding: 1%;
 color: white;
 }
 span{
@@ -75,7 +75,7 @@ a{
   bottom:0;
   background-color: lightblue;
   color: white;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
   border-radius: 10px;
   border-color: lightblue;
 }
