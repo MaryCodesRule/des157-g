@@ -6,7 +6,7 @@
 body{
   font-family: 'Pacifico', cursive;
   font-size: 100%;
-  /* overflow: hidden; */
+   overflow: hidden;
   height: 100%;
    background: #F7ACA9;
 }
@@ -27,16 +27,21 @@ margin: 0 auto;
 text-decoration: none;
 color: pink;
 } */
-.box{
-  max-width:1000px;
-  height: auto;
-  position: relative;
-  margin: 100px auto;
-  padding: 30px;
+
+
+
+.grid-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+grid-column-gap: 30px;
+  padding: 10px;
+  margin-top: 37%;
+}
+.question{
   border: 2px solid lightblue;
   color: white;
-  font-size: 25px;
-  margin-top: 25%;
+  font-size: 3.2vh;
+  text-align: center;
 }
 
 footer{
@@ -46,7 +51,7 @@ font-size: 3em;
 width:100%;
 left:0;
 background-color: lightblue;
-padding: 2%;
+padding: 3%;
 color: white;
 }
 span{
@@ -62,16 +67,26 @@ span:hover{
 }
 a{
   color: white;
+  text-decoration: none;
 }
-button{
+ button{
   position: fixed;
   right: 0;
   bottom:0;
   background-color: lightblue;
   color: white;
-  margin-bottom: 15px;
+  margin-bottom: 30px;
   border-radius: 10px;
+  border-color: lightblue;
+}
+.hint{
+  right:0;
+  bottom: 0;
 }
 .start{
   left:0;
+  bottom: 0;
+}
+h3{
+  margin-left: 50%;
 }
