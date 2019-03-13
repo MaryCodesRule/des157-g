@@ -6,7 +6,7 @@
 body{
   font-family: 'Pacifico', cursive;
   font-size: 100%;
-  /* overflow: hidden; */
+   overflow: hidden;
   height: 100%;
    background: #F7ACA9;
 }
@@ -35,8 +35,9 @@ color: pink;
   padding: 30px;
   border: 2px solid lightblue;
   color: white;
-  font-size: 25px;
-  margin-top: 25%;
+  font-size: 15px;
+  font-family: 'Merriweather', serif;
+  margin-top: 20%;
 }
 
 footer{
