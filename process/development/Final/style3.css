@@ -27,7 +27,7 @@ margin: 0 auto;
 text-decoration: none;
 color: pink;
 } */
-.box{
+/* .box{
   max-width:1000px;
   height: auto;
   position: relative;
@@ -39,8 +39,7 @@ color: pink;
   font-size: 20px;
   font-family: 'Merriweather', serif;
   margin-top: 25%;
-    line-height: 1.7;
-}
+} */
 
 footer{
 bottom: 0;
@@ -83,16 +82,16 @@ button{
 
 .grid-container{
   display: grid;
-  grid-template-columns: 1fr 1fr;
-grid-column-gap: 30px;
+  grid-template-columns: 1fr 1fr 1fr;
+grid-column-gap: 20px;
   padding: 10px;
   margin-top: 30%;
 }
 .question{
   border: 2px solid lightblue;
   color: white;
-  font-size: 3.0vh;
+  font-size: 3vh;
   text-align: center;
   font-family: 'Merriweather', serif;
-  line-height: 1.7;
+    line-height: 1.7;
 }
