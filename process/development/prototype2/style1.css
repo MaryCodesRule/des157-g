@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body{
-  font-family: 'Pacifico', cursive;
+
   font-size: 100%;
   /* overflow: hidden; */
   height: 100%;
@@ -73,7 +73,23 @@ button{
   color: white;
   margin-bottom: 15px;
   border-radius: 10px;
+  font-family: 'Pacifico', cursive;
 }
 .start{
   left:0;
+}
+
+.grid-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+grid-column-gap: 30px;
+  padding: 10px;
+  margin-top: 37%;
+}
+.question{
+  border: 2px solid lightblue;
+  color: white;
+  font-size: 3.2vh;
+  text-align: center;
+  font-family: 'Merriweather', serif;
 }

@@ -3,8 +3,8 @@
   padding: 0;
   box-sizing: border-box;
 }
-body{
-  font-family: 'Pacifico', cursive;
+ body{
+font-family: 'Merriweather', serif;
   font-size: 100%;
    overflow: hidden;
   height: 100%;
@@ -40,8 +40,10 @@ grid-column-gap: 30px;
 .question{
   border: 2px solid lightblue;
   color: white;
-  font-size: 3.2vh;
+  font-size: 3.0vh;
   text-align: center;
+  /* font-size: 20px; */
+
 }
 
 footer{
@@ -86,4 +88,5 @@ a{
 .start{
   left:0;
   bottom: 0;
+  font-family: 'Pacifico', cursive;
 }
